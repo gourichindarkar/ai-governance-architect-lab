@@ -1,10 +1,10 @@
 # AI Governance & Model Lifecycle Architect Lab
 
-A practical, hands-on repository for building and governing machine learning models end-to-end — from data exploration and model development through to validation, monitoring, explainability, and regulatory compliance.
+A practical, hands-on repository for building and governing machine learning models end-to-end from data exploration and model development through to validation, monitoring, explainability, and regulatory compliance.
 
 This lab covers the full model risk management lifecycle, grounded in real regulatory frameworks used across financial services.
 
----
+-----
 
 ## What This Repository Covers
 
@@ -26,11 +26,11 @@ This lab covers the full model risk management lifecycle, grounded in real regul
 - Reusable Python modules in `src/` for metrics, monitoring, explainability, and fairness
 
 ### AI Governance & Regulatory Frameworks
-- **SR 11-7** (Federal Reserve) — Model Risk Management
-- **SS1/23** (Bank of England) — Model Risk Management
-- **EU AI Act** — Risk classification, High Risk AI obligations
-- **NIST AI RMF** — Govern, Map, Measure, Manage functions
-- **DORA** — Digital Operational Resilience, third-party model risk
+- **SR 11-7** (Federal Reserve) : Model Risk Management
+- **SS1/23** (Bank of England) : Model Risk Management
+- **EU AI Act** : Risk classification, High Risk AI obligations
+- **NIST AI RMF** : Govern, Map, Measure, Manage functions
+- **DORA** : Digital Operational Resilience, third-party model risk
 - Cross-framework regulatory comparison and policy-to-control mapping
 
 ### GenAI Governance
@@ -38,7 +38,7 @@ This lab covers the full model risk management lifecycle, grounded in real regul
 - LLM risk taxonomy: hallucination, bias, prompt injection, non-determinism
 - GenAI governance framework and controls
 
----
+-----
 
 ## Repository Structure
 
@@ -51,7 +51,7 @@ ai-governance-architect-lab/
 └── architecture/       ← Architecture diagrams and enterprise governance design docs
 ```
 
----
+-----
 
 ## Key Governance Artifacts
 
@@ -65,7 +65,7 @@ ai-governance-architect-lab/
 | `docs/llm_governance_framework.md` | GenAI/LLM governance framework |
 | `architecture/enterprise_ai_governance.md` | Enterprise-level AI governance blueprint |
 
----
+-----
 
 ## Technical Stack
 
@@ -79,7 +79,7 @@ ai-governance-architect-lab/
 | Version Control | Git, GitHub |
 | Development | VS Code, Jupyter Lab |
 
----
+-----
 
 ## Regulatory Frameworks
 
@@ -91,8 +91,8 @@ ai-governance-architect-lab/
 | NIST AI RMF | United States (NIST) | AI Risk Management |
 | DORA | European Union | Digital Operational Resilience |
 
----
+-----
 
 ## Dataset
 
-The primary dataset used throughout this lab is the **German Credit Dataset** (UCI Machine Learning Repository) — a widely used benchmark dataset in credit risk modelling, containing 1,000 applicants classified as good or bad credit risk across 20 features.
+The primary dataset used throughout this lab is the **German Credit Dataset** (UCI Machine Learning Repository) : a widely used benchmark dataset in credit risk modelling, containing 1,000 applicants classified as good or bad credit risk across 20 features.
